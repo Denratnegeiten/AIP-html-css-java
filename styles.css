@@ -1,0 +1,40 @@
+h1 {
+	color: #6CAC2B;
+	text-align: center;
+	font-size: 50px;
+}
+h2 {
+	color: rgb(255, 236, 114);
+	text-align: center;
+	width: 300px;
+	font-weight: normal;
+	font-style: italic;
+	font-size: 40px;
+}
+h3 {
+	color: red;
+}
+
+td {
+	text-align: center;
+	font-weight: bold;
+}
+
+p {
+	color: orange;
+	text-align: justify;
+	width: 300px;
+	font-weight: bold;
+	font-size: 30px;
+	font-family: "Comic Sans MS";
+}
+
+th {
+	text-align: left;
+	font-weight: normal;
+}
+
+table {
+	width: 500px;
+	height: 300px;
+}
