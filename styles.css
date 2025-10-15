@@ -108,3 +108,41 @@ img {
 
 	border: 1px solid green;
 }
+
+.parent {
+	display: flex;
+	flex-direction: column-reverse;
+	width:500px;
+	height: 300px;
+	border: 1px solid red;
+}
+.child {
+	width: 70px;
+	height: 40px;
+	border: 1px solid green;
+}
+
+.parent1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-end;
+	width:500px;
+	height: 300px;
+	border: 1px solid red;
+	gap: 20px;
+	
+}
+.child1 {
+	width: 70px;
+	height: 40px;
+	border: 1px solid green;
+}
+.elem {
+	align-self: center;
+	justify-content: center;
+}
+.elem1 {
+	order: -1;
+	border: 1px solid red;
+}
